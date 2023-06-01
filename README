@@ -1,0 +1,181 @@
+# Resume_Templete
+My idea...for resume
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+        .table,th,tr,td{
+            border: 1px solid black;
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(224, 235, 163);
+            color: black;
+            margin: 20px;
+            padding: 5px 20px 20px 20px;
+        }
+        .div{
+           
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+        *{box-sizing:border-box}*
+        .container{
+            width: 100%;
+            background-color: #ddd;
+        }
+       .skills{
+            text-align: right;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            color: rgb(0, 0, 0);
+        }
+        .html{width: 90%;background-color: aqua;}
+        .css{width: 70%;background-color: firebrick;}
+        .javascript{width: 30%;background-color: yellow;}
+        .php{width: 10%;background-color: teal;}
+        .Mysql{width: 60%;background-color: salmon;}
+        .Linux{width: 40%;background-color: rebeccapurple;}
+       
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="Resume">
+        <img src="Mathan.jpg" alt="mathan" style="float:right;width: 200px;height: 180px;">
+    <section>
+        
+    <p>
+        <b>NAME :</b>MATHAN <br>
+        <b>PHONENO :</b>9626132321<br>
+        <b>ADDRESS :</b> 107/1,Pandian Nagar 6<sup>th</sup> street,Sabari illam, GH Back side, kariapatti,Virudhunagar-626106. <br>
+        <b>EMAIL ID :</b>mathan281101@gmail.com
+    </p>
+    
+    
+</section>
+<hr>
+<section>
+    <h3>Career Objective</h3>
+    <p>
+        <ul>
+            <li>To accquire a position within the field of information technology with a company that will allow me to demonstrate my skills, knowledge and desire to grow as an individual.</li>
+            <li>I am a motivated individual with a passion for coding and game development. Currently, I am focused on developing my coding skills and expanding my knowledge in this field. My ultimate goal is to utilize this knowledge to create engaging and immersive gaming experiences. With a strong foundation in coding, I am confident in my ability to learn and adapt to new technologies quickly. I am excited to leverage my skills and creativity to bring new ideas to the world of gaming and am eager to join a team of like-minded individuals to make this a reality.</li>
+        </ul>
+    </p>
+</section>
+<hr>
+<section>
+    <h3>Education</h3>
+    <table>
+        <tr>
+            <th>Qualification</th>
+            <th>Institute</th>
+            <th>University/Board</th>
+            <th>Year Of Passing</th>
+            <th>Percentage/CGPA</th>
+        </tr>
+        <tr>
+            <td>B.E</td>
+            <td>Sethu Institute of Engineering And technology, kariapatti</td>
+            <td>Anna University</td>
+            <td>2023</td>
+            <td>8.007 (Upto 6<sup>th</sup>Sem)</td>
+        </tr>
+        <tr>
+            <td>HSC</td>
+            <td>M N M S P N HR SEC SCHOOL,Mallankinar</td>
+            <td>State Board</td>
+            <td>2019</td>
+            <td>60.83%</td>
+        </tr>
+        <tr>
+            <td>SSC</td>
+            <td>Amala High School,kariapatti</td>
+            <td>State Board</td>
+            <td>2017</td>
+            <td>85.8%</td>
+        </tr>
+    </table>
+</section>
+<hr>
+<section>
+    <h3>Skills</h3>
+    
+    <p>html</p>
+    <div class="container">
+        <div class="skills html">90%</div>
+    </div>
+    <p>css</p>
+    <div class="container">
+        <div class="skills css">60%</div>
+    </div>
+    <p>javascript</p>
+    <div class="container">
+        <div class="skills javascript">30%</div>
+    </div>
+    <p>php</p>
+    <div class="container">
+        <div class="skills php">10%</div>
+    </div>
+    <p>Mysql</p>
+    <div class="container">
+        <div class="skills Mysql">50%</div>
+    </div>
+    <p>Linux</p>
+    <div class="container">
+        <div class="skills Linux">40%</div>
+    </div>
+</section>
+<hr>
+<section>
+    <h3>Strengths</h3>
+    <ul>
+        <li>self motivated</li>
+        <li>Team Work</li>
+    </ul>
+</section>
+<hr>
+<section>
+    <h3>Personal Details</h3>
+    <details>
+        <ul>
+            <li>Father's Name - S.Muthusamy</li>
+            <li>Mother's Name - M.Nagammal</li>
+            <li>Date of brith - 28/11/2001</li>
+            <li>Gender - Male</li>
+            
+        </ul>
+    </details>
+</section>
+<hr>
+<section>
+    <h3>Hobbies</h3>
+    <ul>
+        <li>drawing</li>
+        <li>Running</li>
+    </ul>
+</section>
+<section>
+    <h3>Declaration</h3>
+    <ul>
+        <li><p>I solemnly declare that all the above information is correct to the best of my knowledge and belief.</p></li>
+    </ul>
+    
+</section>
+</div>
+
+</body>
+</html>
